@@ -6,8 +6,8 @@ def getInvCount(arr, n):
 				inv_count += 1
 	return inv_count 
 
-arr = [1, 20, 6, 4, 5] 
-n = len(arr) 
+
+arr = [int(i) for i in input().split()]
 print("Number of inversions are", 
-			getInvCount(arr, n)) 
+			getInvCount(arr, len(n))) 
 
